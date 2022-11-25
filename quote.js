@@ -1,4 +1,4 @@
-let first_words = ["The magic of life", "The light of hope", "The light of your soul", "The state of being", "The feeling of love", "The feeling of joy", "A content state of being", "An emotion", "The feeling of calm", "A person's consiousness", "A positive mindset", "Righteousness", "A happy thought",]
+let first_words = ["The magic of life", "The light of hope", "The light of your soul", "The state of being", "The feeling of love", "The feeling of joy", "A content state of being", "An emotion", "The feeling of calm", "A person's consiousness", "A positive mindset", "A happy thought",]
 let second_words = ["happiness", "light", "divine",  "an ocean", "like a fluffy cloud in a sky of blue", "like a rippling pond", "like a petal of a flower", "like a lilly pad floating in a pond", "temporary", "a precious gem"]
 
 let first_names = ["Aiden", "Oscar", "Jenson", "Alex", "Adam", "Peter", "Peterson", "Garry", "Stephen", "Lusy","Allison", "Katie", "Sophia", "Caroline", "Elaine", "Nora", "Harrison", "Daniel", "joseph", "Vera", "Sally", "Jason", "Frank", "Silena", "Gloria", "Richard", "Karen","Jessica", "Leonard", "Helen"]

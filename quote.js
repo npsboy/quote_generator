@@ -106,9 +106,10 @@ function main()  {
 
     let quote = print_words (first_words, " is ", second_words)
     let auther = print_words (first_names, " ", last_names)
-    let full_quote = ("\"" + quote + "\"" + " " + "-" + "<i>" + auther + "</i>")
-    console.log (full_quote)
+    let full_quote = ("\"" + quote + "\"")
+    console.log (full_quote + " -" + auther)
     document.getElementById("quote").innerHTML = "<mark>" + full_quote + "</mark>";
+    document.getElementById("author").innerHTML = "-" + auther;
 }
 
 main();

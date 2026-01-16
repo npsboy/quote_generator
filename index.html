@@ -1,86 +1,28 @@
-"<!DOCTYPE html> 
+<!DOCTYPE html> 
 <html lang="en"> 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wisest Quotes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
 <body> 
 
-  <style>
-    body {
-     
-       background-image: url("https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_960_720.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-    
-    }
-    mark {
-      background-color: rgba(138, 81, 162, 0.438);
-      color: rgb(255, 208, 0); 
-    }
+<h1><mark>Wisest Quotes</mark></h1>
 
-    h2 {
-  font-size: 35px;
-}
-.button {
-  background-color: #8b48a3;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
+<h2 id="quote"></h2>
+<div class="author" id="author"></div>
 
-.container {
-  height: 200px;
-  position: relative;
-  
-}
-
-.horizontal-center {
-  margin: 0;
-  position: absolute;
-  left: 50%;
-  -ms-transform: translatex(-50%);
-  transform: translatex(-50%);
-}
-    </style>
-
-<h1 style="font-size:60px;color:#fbff00;" align="center"><mark>Wisest Quotes</mark></h1> 
-
-
-<br><br>
-
-<h2 style="color:#f7df07;" align="center" id="quote"> hi </h2> 
-<br><br> 
-
-
-
-<div style="text-align: center\"> 
-
- <div class="container">
-    <div class="horizontal-center" 
-
-<button onClick="window.location.reload();"></button>
-
-
-<button class="button" onClick="window.location.reload();" >New Quote</button>
-
-
-<style>
-
-    button {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    </style>
-
-
-
+<div class="container">
+  <div class="horizontal-center">
+    <button class="button" onClick="window.location.reload();">One more</button>
+  </div>
 </div>
+
 </body>
+</html>
 
 <script src="quote.js"></script>
-
-</html>

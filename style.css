@@ -1,0 +1,101 @@
+body {
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mea-culpa-regular {
+  font-family: "Mea Culpa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bonheur-royale-regular {
+  font-family: "Bonheur Royale", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 87px;
+  color: #e8dcc4;
+  text-align: center;
+  margin-top: 0;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-family: "Mea Culpa", cursive;
+}
+
+mark {
+  background-color: transparent;
+  color: #e8dcc4;
+}
+
+h2 {
+  font-size: 28px;
+  color: #ffffff;
+  text-align: center;
+  margin: 40px 40px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.author {
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  font-style: italic;
+  margin: 20px 0 60px 0;
+  font-weight: normal;
+}
+
+.button {
+  background-color: transparent;
+  border: 2px solid #d4af37;
+  color: #d4af37;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  margin: 4px auto;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  font-family: 'Georgia', serif;
+}
+
+.button:hover {
+  background-color: #d4af37;
+  color: #1a4d2e;
+}
+
+.container {
+  height: auto;
+  position: relative;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.horizontal-center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
